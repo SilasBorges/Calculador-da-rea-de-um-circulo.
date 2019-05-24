@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float main(){
+    float raio, resultado, area;
+
+    printf("Informe o valor do raio de um circulo:\n");
+    scanf("%f", &raio);
+    setbuf(stdin, NULL);
+
+    area = 3.141592 * raio * raio;
+
+    printf("A area do circulo corresponde a:\n %.2f\n", area);
+
+    system("pause");
+    return 0;
+
+}
